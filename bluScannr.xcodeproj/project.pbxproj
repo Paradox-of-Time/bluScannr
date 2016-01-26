@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDC3D60E1C57D500005ECF10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC3D60D1C57D500005ECF10 /* main.m */; };
+		EDC3D6111C57D500005ECF10 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC3D6101C57D500005ECF10 /* AppDelegate.m */; };
+		EDC3D6141C57D500005ECF10 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC3D6131C57D500005ECF10 /* ViewController.m */; };
+		EDC3D6171C57D500005ECF10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDC3D6151C57D500005ECF10 /* Main.storyboard */; };
+		EDC3D6191C57D500005ECF10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDC3D6181C57D500005ECF10 /* Assets.xcassets */; };
+		EDC3D61C1C57D500005ECF10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDC3D61A1C57D500005ECF10 /* LaunchScreen.storyboard */; };
+		EDC3D6271C57D500005ECF10 /* bluScannrTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC3D6261C57D500005ECF10 /* bluScannrTests.m */; };
+		EDC3D6321C57D500005ECF10 /* bluScannrUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDC3D6311C57D500005ECF10 /* bluScannrUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDC3D6231C57D500005ECF10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDC3D6011C57D500005ECF10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDC3D6081C57D500005ECF10;
+			remoteInfo = bluScannr;
+		};
+		EDC3D62E1C57D500005ECF10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDC3D6011C57D500005ECF10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDC3D6081C57D500005ECF10;
+			remoteInfo = bluScannr;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EDC3D6091C57D500005ECF10 /* bluScannr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bluScannr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDC3D60D1C57D500005ECF10 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EDC3D60F1C57D500005ECF10 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EDC3D6101C57D500005ECF10 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EDC3D6121C57D500005ECF10 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EDC3D6131C57D500005ECF10 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EDC3D6161C57D500005ECF10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDC3D6181C57D500005ECF10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDC3D61B1C57D500005ECF10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDC3D61D1C57D500005ECF10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDC3D6221C57D500005ECF10 /* bluScannrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bluScannrTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDC3D6261C57D500005ECF10 /* bluScannrTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bluScannrTests.m; sourceTree = "<group>"; };
+		EDC3D6281C57D500005ECF10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDC3D62D1C57D500005ECF10 /* bluScannrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bluScannrUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDC3D6311C57D500005ECF10 /* bluScannrUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bluScannrUITests.m; sourceTree = "<group>"; };
+		EDC3D6331C57D500005ECF10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDC3D6061C57D500005ECF10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDC3D61F1C57D500005ECF10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDC3D62A1C57D500005ECF10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDC3D6001C57D500005ECF10 = {
+			isa = PBXGroup;
+			children = (
+				EDC3D60B1C57D500005ECF10 /* bluScannr */,
+				EDC3D6251C57D500005ECF10 /* bluScannrTests */,
+				EDC3D6301C57D500005ECF10 /* bluScannrUITests */,
+				EDC3D60A1C57D500005ECF10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDC3D60A1C57D500005ECF10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDC3D6091C57D500005ECF10 /* bluScannr.app */,
+				EDC3D6221C57D500005ECF10 /* bluScannrTests.xctest */,
+				EDC3D62D1C57D500005ECF10 /* bluScannrUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDC3D60B1C57D500005ECF10 /* bluScannr */ = {
+			isa = PBXGroup;
+			children = (
+				EDC3D60F1C57D500005ECF10 /* AppDelegate.h */,
+				EDC3D6101C57D500005ECF10 /* AppDelegate.m */,
+				EDC3D6121C57D500005ECF10 /* ViewController.h */,
+				EDC3D6131C57D500005ECF10 /* ViewController.m */,
+				EDC3D6151C57D500005ECF10 /* Main.storyboard */,
+				EDC3D6181C57D500005ECF10 /* Assets.xcassets */,
+				EDC3D61A1C57D500005ECF10 /* LaunchScreen.storyboard */,
+				EDC3D61D1C57D500005ECF10 /* Info.plist */,
+				EDC3D60C1C57D500005ECF10 /* Supporting Files */,
+			);
+			path = bluScannr;
+			sourceTree = "<group>";
+		};
+		EDC3D60C1C57D500005ECF10 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDC3D60D1C57D500005ECF10 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EDC3D6251C57D500005ECF10 /* bluScannrTests */ = {
+			isa = PBXGroup;
+			children = (
+				EDC3D6261C57D500005ECF10 /* bluScannrTests.m */,
+				EDC3D6281C57D500005ECF10 /* Info.plist */,
+			);
+			path = bluScannrTests;
+			sourceTree = "<group>";
+		};
+		EDC3D6301C57D500005ECF10 /* bluScannrUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EDC3D6311C57D500005ECF10 /* bluScannrUITests.m */,
+				EDC3D6331C57D500005ECF10 /* Info.plist */,
+			);
+			path = bluScannrUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDC3D6081C57D500005ECF10 /* bluScannr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDC3D6361C57D500005ECF10 /* Build configuration list for PBXNativeTarget "bluScannr" */;
+			buildPhases = (
+				EDC3D6051C57D500005ECF10 /* Sources */,
+				EDC3D6061C57D500005ECF10 /* Frameworks */,
+				EDC3D6071C57D500005ECF10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = bluScannr;
+			productName = bluScannr;
+			productReference = EDC3D6091C57D500005ECF10 /* bluScannr.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EDC3D6211C57D500005ECF10 /* bluScannrTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDC3D6391C57D500005ECF10 /* Build configuration list for PBXNativeTarget "bluScannrTests" */;
+			buildPhases = (
+				EDC3D61E1C57D500005ECF10 /* Sources */,
+				EDC3D61F1C57D500005ECF10 /* Frameworks */,
+				EDC3D6201C57D500005ECF10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDC3D6241C57D500005ECF10 /* PBXTargetDependency */,
+			);
+			name = bluScannrTests;
+			productName = bluScannrTests;
+			productReference = EDC3D6221C57D500005ECF10 /* bluScannrTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EDC3D62C1C57D500005ECF10 /* bluScannrUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDC3D63C1C57D500005ECF10 /* Build configuration list for PBXNativeTarget "bluScannrUITests" */;
+			buildPhases = (
+				EDC3D6291C57D500005ECF10 /* Sources */,
+				EDC3D62A1C57D500005ECF10 /* Frameworks */,
+				EDC3D62B1C57D500005ECF10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDC3D62F1C57D500005ECF10 /* PBXTargetDependency */,
+			);
+			name = bluScannrUITests;
+			productName = bluScannrUITests;
+			productReference = EDC3D62D1C57D500005ECF10 /* bluScannrUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDC3D6011C57D500005ECF10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Momentum;
+				TargetAttributes = {
+					EDC3D6081C57D500005ECF10 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					EDC3D6211C57D500005ECF10 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = EDC3D6081C57D500005ECF10;
+					};
+					EDC3D62C1C57D500005ECF10 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = EDC3D6081C57D500005ECF10;
+					};
+				};
+			};
+			buildConfigurationList = EDC3D6041C57D500005ECF10 /* Build configuration list for PBXProject "bluScannr" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDC3D6001C57D500005ECF10;
+			productRefGroup = EDC3D60A1C57D500005ECF10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDC3D6081C57D500005ECF10 /* bluScannr */,
+				EDC3D6211C57D500005ECF10 /* bluScannrTests */,
+				EDC3D62C1C57D500005ECF10 /* bluScannrUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDC3D6071C57D500005ECF10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDC3D61C1C57D500005ECF10 /* LaunchScreen.storyboard in Resources */,
+				EDC3D6191C57D500005ECF10 /* Assets.xcassets in Resources */,
+				EDC3D6171C57D500005ECF10 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDC3D6201C57D500005ECF10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDC3D62B1C57D500005ECF10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDC3D6051C57D500005ECF10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDC3D6141C57D500005ECF10 /* ViewController.m in Sources */,
+				EDC3D6111C57D500005ECF10 /* AppDelegate.m in Sources */,
+				EDC3D60E1C57D500005ECF10 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDC3D61E1C57D500005ECF10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDC3D6271C57D500005ECF10 /* bluScannrTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDC3D6291C57D500005ECF10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDC3D6321C57D500005ECF10 /* bluScannrUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EDC3D6241C57D500005ECF10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDC3D6081C57D500005ECF10 /* bluScannr */;
+			targetProxy = EDC3D6231C57D500005ECF10 /* PBXContainerItemProxy */;
+		};
+		EDC3D62F1C57D500005ECF10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDC3D6081C57D500005ECF10 /* bluScannr */;
+			targetProxy = EDC3D62E1C57D500005ECF10 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EDC3D6151C57D500005ECF10 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDC3D6161C57D500005ECF10 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EDC3D61A1C57D500005ECF10 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDC3D61B1C57D500005ECF10 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDC3D6341C57D500005ECF10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EDC3D6351C57D500005ECF10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDC3D6371C57D500005ECF10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = bluScannr/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.momentumww.bluScannr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EDC3D6381C57D500005ECF10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = bluScannr/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.momentumww.bluScannr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EDC3D63A1C57D500005ECF10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = bluScannrTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.momentumww.bluScannrTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bluScannr.app/bluScannr";
+			};
+			name = Debug;
+		};
+		EDC3D63B1C57D500005ECF10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = bluScannrTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.momentumww.bluScannrTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bluScannr.app/bluScannr";
+			};
+			name = Release;
+		};
+		EDC3D63D1C57D500005ECF10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = bluScannrUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.momentumww.bluScannrUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = bluScannr;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EDC3D63E1C57D500005ECF10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = bluScannrUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.momentumww.bluScannrUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = bluScannr;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDC3D6041C57D500005ECF10 /* Build configuration list for PBXProject "bluScannr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDC3D6341C57D500005ECF10 /* Debug */,
+				EDC3D6351C57D500005ECF10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDC3D6361C57D500005ECF10 /* Build configuration list for PBXNativeTarget "bluScannr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDC3D6371C57D500005ECF10 /* Debug */,
+				EDC3D6381C57D500005ECF10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EDC3D6391C57D500005ECF10 /* Build configuration list for PBXNativeTarget "bluScannrTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDC3D63A1C57D500005ECF10 /* Debug */,
+				EDC3D63B1C57D500005ECF10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EDC3D63C1C57D500005ECF10 /* Build configuration list for PBXNativeTarget "bluScannrUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDC3D63D1C57D500005ECF10 /* Debug */,
+				EDC3D63E1C57D500005ECF10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDC3D6011C57D500005ECF10 /* Project object */;
+}
