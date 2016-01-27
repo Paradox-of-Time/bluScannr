@@ -9,7 +9,16 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+{
+    IBOutlet UILabel *appTitle;
+    IBOutlet UIButton *showButton;
+    IBOutlet UIButton *hideButton;
+    IBOutlet UIButton *openScannr;
+}
 
+-(IBAction)showButton:(id)sender;
+-(IBAction)hideButton:(id)sender;
+-(IBAction)openScannr:(id)sender;
 
 @end
 
